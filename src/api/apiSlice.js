@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const apiSlice = createApi({
     reducerPath: 'api',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://serverskyfull.herokuapp.com' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://chatskyfull.herokuapp.com' }),
     tagTypes: ['Person'],
     endpoints: builder => ({
         getPerson: builder.query({
