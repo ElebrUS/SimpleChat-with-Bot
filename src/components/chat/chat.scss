@@ -1,0 +1,16 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    &_item{
+        &-info{
+            flex: 0 1 10%;
+        }
+        &-list{
+            flex: 0 1 80%;
+            overflow-y: auto;
+        }
+        &-form{
+            flex: 0 1 10%;
+        }
+    }
+}

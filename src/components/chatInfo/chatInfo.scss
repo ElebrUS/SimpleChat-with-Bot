@@ -1,0 +1,19 @@
+.chatInfo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #e8e8e896;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.726);
+    &_img{
+        flex: 0 1 20%;
+        img{
+            width: 60px;
+            height: 60px;
+            margin-left: 20px;
+        }
+    }
+    &_title{
+        flex: 0 1 60%;
+        font-size: 20px;
+    }
+}
